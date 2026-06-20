@@ -1,0 +1,4 @@
+include README.md
+include CHANGELOG.md
+include LICENSE
+recursive-include bayesopt_cuda/csrc *.cu *.h *.cpp

@@ -1,0 +1,41 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.pyd
+*.so
+__pycache__/
+*.py[co]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Benchmark / temp
+.benchmarks/
+*.json
+results/
+
+# CUDA
+*.o
+*.obj
+*.lib
+*.exp
+*.ilk
+*.pdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch extensions
+.cache/
+torch_extensions/

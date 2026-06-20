@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --quiet --wait --norestart --installPath "C:\Program Files\Microsoft Visual Studio\2022\Community" --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64

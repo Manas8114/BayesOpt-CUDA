@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "torch>=2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesopt-cuda"
+version = "0.1.0"
+authors = [
+  { name="BayesOpt-CUDA Authors", email="authors@example.com" },
+]
+description = "GPU-accelerated Bayesian Optimization with custom CUDA kernels."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.20",
+    "scipy>=1.7"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ninja"
+]
