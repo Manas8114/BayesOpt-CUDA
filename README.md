@@ -206,12 +206,13 @@ Correctness tests ensure custom kernels are numerically verified to match SciPy 
 
 ```bash
 pip install pytest
-python -m pytest tests/ -v
+python -m pytest tests/ -v 
 ```
 
 ---
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-#   B a y e s O p t - C U D A  
+#   B a y e s O p t - C U D A 
+ 
  
