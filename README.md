@@ -213,3 +213,5 @@ python -m pytest tests/ -v
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+#   B a y e s O p t - C U D A  
+ 
